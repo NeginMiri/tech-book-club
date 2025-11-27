@@ -1,0 +1,21 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAF5F3;
+padding: 32px 0 66px 0; }
+.background {
+    background-image: url(./pattern-light-bg.svg);
+}
+
+.star {
+    display: flex;
+    width: fit-content;
+    list-style: none;
+}
